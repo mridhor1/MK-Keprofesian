@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Amatic';
+  /*font-style: normal;
+  font-weight: 100;*/
+
+  src: url('../fonts/AmaticSC-Regular.ttf');
+  /*src: url('../fonts/roboto/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/roboto/Roboto-Thin-webfont.woff') format('woff'),
+  url('../fonts/roboto/Roboto-Thin-webfont.ttf') format('truetype'),
+  url('../fonts/roboto/Roboto-Thin-webfont.svg#Roboto') format('svg');*/
+}
+
+html{
+	font-family: 'Amatic' !important;
+	color: #fff;
+}
