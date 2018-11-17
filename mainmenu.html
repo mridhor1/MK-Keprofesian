@@ -1,73 +1,74 @@
 <!DOCTYPE html>
-<head>
-	<title>Main Menu</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<style>
-	img	{
-		max-width: 20%
-		height: auto
-		border-radius: 50%
-		}
-	body {
-		background-color: #009ADE
-		}
-	jumbotron{
-		font-family: chewy
-		}
-	.circle {
-		height: 110px;
-		width: 110px;
-		background-color: #555;
-		border-radius: 50%;
-		}	
-		</style>
-</head>
-<body>
-	<div class="jumbotron text-center">
-		<h2> Selamat Datang di Panca Indra!</h2>
-		<h3> Inilah Panca Indra!</h3>
-	</div>
-<div id="main">		
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4">
-			<div class="circle">
-				<center>
-				<a href="mata.html"><img src="(1)/eye-scan.png" style="width:80px;height:auto;margin-top:15px"></a>
-				</center>
+<html lang="en">
+	<head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" type="text/css" href="css/css-56.css">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	    <title>Panca Indra</title>
+	    <style type="text/css">
+	    	@media (max-width: 576px){
+			  .container{
+			     position: relative; 
+			     top: 0%; 
+			     left: 0%; 
+			     transform: none; 
+			  }
+			}
+	    </style>
+	</head>
+	<body>
+		<a href="home.html">
+			<button class="btn btn-primary" style="background-color: #42b9f7;padding: 10px 15px; border: 5px solid #fff; border-radius: 15px; margin: 20px">
+                <img src="img/play-button.png" style="width: 20px; -webkit-transform: scaleX(-1); transform: scaleX(-1);">
+            </button>
+		</a>
+		<div class="container">
+			<div class=" text-center">
+				<!-- <h2> Selamat Datang di Panca Indra!</h2> -->
+				<h1 class="mb-5" style="font-size: 6vmax;"> Pilih Panca Indra</h1>
 			</div>
+			<div class="row text-center mb-3">
+				<div class="col-sm-4 mb-3">
+					<div class="circle mx-auto">
+						<a href="mata.html"><img src="img/eye-scan.png" style="width:80px;height:auto;margin:15px"></a>
+					</div>
+				</div>
+				<div class="col-sm-4 mb-3">
+					<div class="circle mx-auto">
+						<a href="telinga.html"><img src="img/ear.png" style="width:80px;height:auto;margin:15px"></a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div>
+					<a href="hidung.html"><img src="img/nose.png" style="width:110px;height:auto"></a>
+					</div>
+				</div>
 			</div>
-			<div class="col-sm-4">
-			<div class="circle">
-				<center>
-				<a href="telinga.html"><img src="(1)/ear.png" style="width:80px;height:auto;margin-top:15px"></a>
-				</center>
-			</div>
-			</div>
-			<div class="col-sm-4">
-				<a href="hidung.html"><img src="(1)/nose.png" style="width:110px;height:auto"></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-2">
-			</div>
-			<div class="col-sm-4">
-				<div class="circle">
-				<center>
-				<a href="kulit.html"><img src="(1)/tap.png" style="width:80px;height:auto;margin-top:15px"></a>
-				</center>
-			</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="circle">
-				<center>
-				<a href="lidah.html"><img src="(1)/tongue.png" style="width:80px;height:auto;margin-top:20px"></a>
-				</center>
-			</div>
+			<div class="row">
+				<div class="col-sm-2 mb-3"></div>
+				<div class="col-sm-4 mb-3">
+					<div class="circle mx-auto">
+						<a href="kulit.html"><img src="img/tap.png" style="width:80px;height:auto;margin:15px"></a>
+					</div>
+				</div>
+				<div class="col-sm-4 mb-3">
+					<div class="circle mx-auto">
+						<a href="lidah.html"><img src="img/tongue.png" style="width:80px;height:auto;margin:15px"></a>
+					</div>
+				</div>
+				<div class="col-sm-2 mb-3"></div>
 			</div>
 		</div>
-	</div>
-</div>	
+
+		<!-- Optional JavaScript -->
+	    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+</html>

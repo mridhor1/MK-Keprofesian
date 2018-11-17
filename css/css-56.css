@@ -1,16 +1,42 @@
 @font-face {
-  font-family: 'Amatic';
+  font-family: 'bubblegum-sans.regular';
   /*font-style: normal;
   font-weight: 100;*/
 
-  src: url('../fonts/AmaticSC-Regular.ttf');
+  src: url('../fonts/bubblegum-sans.regular.ttf');
   /*src: url('../fonts/roboto/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
   url('../fonts/roboto/Roboto-Thin-webfont.woff') format('woff'),
   url('../fonts/roboto/Roboto-Thin-webfont.ttf') format('truetype'),
   url('../fonts/roboto/Roboto-Thin-webfont.svg#Roboto') format('svg');*/
 }
 
-html{
-	font-family: 'Amatic' !important;
-	color: #fff;
+
+*{
+  font-family: 'bubblegum-sans.regular' !important;
+  color: #fff;
+}
+
+body{
+  background-color: #007ec1 !important; 
+  color: #fff;
+}
+
+img {
+  max-width: 20%
+  height: auto
+  border-radius: 50%
+}
+
+.container{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  height: 110px;
+  width: 110px;
+  background-color: #555;
+  border-radius: 50%;
 }

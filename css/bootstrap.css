@@ -6,11 +6,11 @@
  */
 
 @font-face {
-  font-family: 'TrashHand';
+  font-family: 'bubblegum-sans';
   /*font-style: normal;
   font-weight: 100;*/
 
-  src: url('fonts/TrashHand.ttf');
+  src: url('../fonts/bubblegum-sans.regular.ttf');
   /*src: url('../fonts/roboto/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
   url('../fonts/roboto/Roboto-Thin-webfont.woff') format('woff'),
   url('../fonts/roboto/Roboto-Thin-webfont.ttf') format('truetype'),
